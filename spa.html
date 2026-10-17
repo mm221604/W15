@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>方案推薦｜毛毛 SPA 芳療館</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <a href="index.html" class="note">← 回首頁</a>
+  <h1>方案推薦</h1>
+  <select id="skin">
+    <option value="dry">乾癢</option>
+    <option value="oily">油膩、有味道</option>
+    <option value="shed">掉毛很多</option>
+  </select>
+  <button class="small" onclick="pick()">OK</button>
+  <p id="out" class="note"></p>
+</div>
+<script>
+function pick(){
+  const v = document.getElementById("skin").value;
+  const plan = { dry: "A", oily: "B", shed: "C" }[v];
+  document.getElementById("out").textContent = "推薦：" + plan;
+}
+</script>
+</body>
+</html>

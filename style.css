@@ -1,0 +1,7 @@
+body{margin:0;background:#f4f1f8;color:#3a3245;font-family:"Microsoft JhengHei","PingFang TC",sans-serif;font-size:14px;line-height:1.6}
+.wrap{max-width:720px;margin:0 auto;padding:24px 16px}
+h1{color:#7a5aa6;font-size:22px}
+.row{display:flex;gap:6px}
+.small{display:inline-block;padding:2px 8px;font-size:11px;border:1px solid #c9b8e0;border-radius:4px;background:#fff;color:#7a5aa6;text-decoration:none;cursor:pointer}
+select{font-size:12px}
+.note{color:#8a8296;font-size:12px}
